@@ -16,9 +16,12 @@
         android:theme="@style/Theme.AndoridTask"
         tools:targetApi="33">
         <activity
-            android:name=".Api.Data_fetch"
+            android:name=".Ui.Onboarding"
             android:exported="false" />
 
+        <activity
+            android:name=".Api.Data_fetch"
+            android:exported="false" />
         <activity
             android:name=".Ui.Ui_part"
             android:exported="false" />

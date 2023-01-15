@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/drawable/comp_view_circle_gray.xml" value="0.1605" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/drawable/incative_indicator.xml" value="0.1" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/drawable/indicatior_incative.xml" value="0.1" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/drawable/indicator_active.xml" value="0.1" />
         <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_api_part.xml" value="0.22826086956521738" />
         <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_api_part2.xml" value="0.22826086956521738" />
         <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_data_fetch.xml" value="0.22826086956521738" />
         <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_ui_part.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_onboarding.xml" value="0.176" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_ui2.xml" value="0.21516754850088182" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/activity_ui_part.xml" value="0.25416666666666665" />
         <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/datamodel.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android_project/AndoridTask/app/src/main/res/layout/item_container.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
