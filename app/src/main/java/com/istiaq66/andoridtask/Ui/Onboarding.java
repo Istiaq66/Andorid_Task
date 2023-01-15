@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.istiaq66.andoridtask.R;
+import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +21,7 @@ public class Onboarding extends AppCompatActivity {
     List<Item> items = new ArrayList<>();
     ImageView img1,img2,img3;
     TextView textView;
+    DotsIndicator dotsIndicator;
 
 
     private  Onboarding_adapter onboarding_adapter;
@@ -28,11 +30,12 @@ public class Onboarding extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboarding);
 
-        img1 = findViewById(R.id.imageView2);
+      /*  img1 = findViewById(R.id.imageView2);
         img2 = findViewById(R.id.imageView3);
-        img3 = findViewById(R.id.imageView4);
-        textView = findViewById(R.id.txt1);
+        img3 = findViewById(R.id.imageView4);*/
 
+        textView = findViewById(R.id.txt1);
+        dotsIndicator = findViewById(R.id.dots_indicator);
 
 
         setOnboarding_Items();
@@ -40,6 +43,8 @@ public class Onboarding extends AppCompatActivity {
 
         ViewPager2 onboardingviewpager = findViewById(R.id.viewpager);
         onboardingviewpager.setAdapter(onboarding_adapter);
+        dotsIndicator.attachTo(onboardingviewpager);
+
 
       /*  String inditext = textView.getText().toString();
         setcurrentIndicator(inditext);*/
